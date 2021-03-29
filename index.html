@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html layouts</title>
+	 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<style>
+		header
+		{
+			background:linear-gradient(45deg,cyan,green,blue);
+			margin:0px;
+			padding:13px;
+		}
+		body
+		{
+			margin: 0px;
+		}
+		h1
+		{
+			text-align:center;
+		}
+		nav
+		{
+			background:linear-gradient(45deg,coral,cyan,orange);
+			padding:10px;
+		}
+		nav a
+		{
+			margin-right:200px;
+			text-decoration:none;
+		}
+		section .abc
+		{
+			width:31%;
+			display:inline-block;
+			margin-left:20px;
+			color:white;
+			background:coral;
+			margin-top:20px;
+		}
+		section
+		{
+			background:linear-gradient(45deg,darkblue,lightblue,gray);
+		}
+		#xyz
+		{
+			margin-left:550px;
+		}
+		img
+	    {
+	    	margin-left:100px;
+	    }
+	    body
+	    {
+	    	background:linear-gradient(45deg,skyblue,orange,pink);
+	    }
+	    .box
+	    {
+	    	position:relative;
+	    	transform-style:preserve-3d;
+	    }
+	    .box span
+	    {
+	    	position:absolute;
+	    	top:0px;
+	    	left:0px;
+	    	width:100%;
+	    	height:100%;
+	    	transform-origin:center;
+	    	
+	    }
+	    @keyframes animate
+	    {
+	    	0%
+	    	{
+	    		transform:perspective(1000px) rotateY(0deg);
+	    	}
+	        100%
+	    	{
+	    		transform:perspective(1000px) rotateY(0deg);
+	    	}
+	    }
+	    @media (min-width:501px) and (max-width:720px)
+	    {
+	    	#nav
+	    	{
+	    		flex-direction:column;
+	    	}
+	    }
+	</style>
+</head>
+<body>
+    <header>
+    	<h1>cricket stars</h1>
+    </header>
+    <nav>
+    	<a href="#home"><i class="fas fa-home"></i>home</a>
+    	<a href="#news"><i class="fas fa-newspaper"></i>news</a>
+    	<a href="#gallery"><i class="fab fa-envira"></i>gallery</a>
+    	<a href="#"><i class="fas fa-address-card"></i>About</a>
+    	<a href="#"><i class="fas fa-phone-volume"></i>Contact Us</a>
+    </nav>
+    <section  class="animate__animated animate__bounce">
+    	<article class="abc">
+             <h1>rohit sharma</h1>
+             <img src="https://spiderimg.amarujala.com/assets/images/2020/10/27/750x506/rohit-sharma_1603803462.jpeg" width="200px" height="200px">
+             <p>Rohit Gurunath Sharma is an Indian international cricketer who plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League as a right-handed batsman and an occasional right-arm off break bowler. He is the vice-captain of the Indian national team in limited-overs formats.Rohit Gurunath Sharma is an Indian international cricketer who plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League as a right-handed batsman and an occasional right-arm off break bowler. He is the vice-captain of the Indian national team in limited-overs formats.</p>
+    	</article>
+    	<article class="abc">
+    		<h1>virat kohli</h1>
+    		<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/VIRAT_KOHLI_JAN_2015_%28cropped%29.jpg" width="200px" height="200px">
+    		<p>Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world. He plays for Royal Challengers Bangalore in the Indian Premier League, and has been the team's captain since 2013Virat Kohli is an Indian cricketer and the current captain of the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best contemporary batsmen in the world. He plays for Royal Challengers Bangalore in the Indian Premier League, and has been the team's captain since 2013</p>
+    	</article>
+    	<article class="abc">
+    		<h1>MS.dhoni</h1>
+    		<img src="https://c.ndtvimg.com/2019-11/6q4n62p_ms-dhoni-afp_625x300_06_November_19.jpg?q=60" width="200px" height="200px">
+    		<p>Mahendra Singh Dhoni, is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014.Mahendra Singh Dhoni, is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014.Mahendra Singh Dhoni, is a former Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014.</p>
+    	</article>
+    </section>
+    <section>
+    	<article id="home">
+    		<h1><i class="fas fa-home"></i>home</h1>
+    		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChJjdn3XbPQRIavd9XVhWStXpMGb0uOidyQ&usqp=CAU" id="xyz">
+    		<p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat (and running between the wickets), while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, and getting the ball to either wicket) and dismiss each batter (so they are "out"). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side either catching the ball after it is hit by the bat and before it hits the ground, or hitting a wicket with the ball before a batter can cross the crease in front of the wicket. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information.
+
+Forms of cricket range from Twenty20, with each team batting for a single innings of 20 overs, to Test matches played over five days. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In addition to the basic kit, some players wear protective gear to prevent injury caused by the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a cork core layered with tightly wound string.
+
+The earliest reference to cricket is in South East England in the mid-16th century. It spread globally with the expansion of the British Empire, with the first international matches in the second half of the 19th century. The game's governing body is the International Cricket Council (ICC), which has over 100 members, twelve of which are full members who play Test matches. The game's rules, the Laws of Cricket, are maintained by Marylebone Cricket Club (MCC) in London. The sport is followed primarily in the Indian subcontinent, Australasia, the United Kingdom, southern Africa and the West Indies.[1] Women's cricket, which is organised and played separately, has also achieved international standard. The most successful side playing international cricket is Australia, which has won seven One Day International trophies, including five World Cups, more than any other country and has been the top-rated Test side more than any other country.</p>
+    	</article>
+    </section>
+    <section id="news">
+    	<h1><i class="fas fa-newspaper"></i>news</h1>
+    	<p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat (and running between the wickets), while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, and getting the ball to either wicket) and dismiss each batter (so they are "out"). Means of dismissal include being bowled, when the ball hits the stumps and dislodges the bails, and by the fielding side either catching the ball after it is hit by the bat and before it hits the ground, or hitting a wicket with the ball before a batter can cross the crease in front of the wicket. When ten batters have been dismissed, the innings ends and the teams swap roles. The game is adjudicated by two umpires, aided by a third umpire and match referee in international matches. They communicate with two off-field scorers who record the match's statistical information.
+
+Forms of cricket range from Twenty20, with each team batting for a single innings of 20 overs, to Test matches played over five days. Traditionally cricketers play in all-white kit, but in limited overs cricket they wear club or team colours. In addition to the basic kit, some players wear protective gear to prevent injury caused by the ball, which is a hard, solid spheroid made of compressed leather with a slightly raised sewn seam enclosing a cork core layered with tightly wound string.
+
+The earliest reference to cricket is in South East England in the mid-16th century. It spread globally with the expansion of the British Empire, with the first international matches in the second half of the 19th century. The game's governing body is the International Cricket Council (ICC), which has over 100 members, twelve of which are full members who play Test matches. The game's rules, the Laws of Cricket, are maintained by Marylebone Cricket Club (MCC) in London. The sport is followed primarily in the Indian subcontinent, Australasia, the United Kingdom, southern Africa and the West Indies.[1] Women's cricket, which is organised and played separately, has also achieved international standard. The most successful side playing international cricket is Australia, which has won seven One Day International trophies, including five World Cups, more than any other country and has been the top-rated Test side more than any other country.</p>
+    </section>
+    <section  class="animate__animated animate__bounce" id="gallery">
+    	<div class="box">
+    	<img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/06/28/911083-879296-afp.jpg" width="250px" height="250px">
+    	<img src="https://images.newindianexpress.com/uploads/user/imagelibrary/2020/6/28/w1200X800/000_1HR0J2.jpg" width="250px" height="250px">
+    	<img src="https://gumlet.assettype.com/freepressjournal%2F2019-06%2F44b06392-51a3-4d78-87b4-9655d8730d64%2F20190627070L.jpg?w=1200" width="250px" height="250px">
+    	<img src="https://www.crictracker.com/wp-content/uploads/2019/12/MS-Dhoni-Virat-Kohli-and-Rohit-Sharma.jpg" width="250px" height="250px">
+    	<img src="https://static.toiimg.com/thumb/imgsize-1289159,msid-69509855,width-400,resizemode-4/69509855.jpg" width="250px" height="250px">
+    	<img src="https://s3.india.com/wp-content/uploads/2019/02/MS-Dhoni-Virat-Kohli-and-Rohit-Sharma-of-the-Indian-Cricket-Team_Picture-twitter.jpg" width="250px" height="250px">
+    	<img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-c362dkl5nuojhfcnaom8mm97f4-20190215115333.Medi.jpeg" width="250px" height="250px">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcXIh7uqQAxSd5PYk6FcLz4ggEN0vVRdkyw&usqp=CAU" width="250px" height="250px">
+    	<img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201904/rohit30042019.jpeg?N0pdqp2Jkvb69NNyPthUGL7iZlYf55Ff" width="250px" height="250px">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3WqZSt7ZSxH-aKULaPpHuLKFf9dqN062s7A&usqp=CAU" width="250px" height="250px">
+    	<img src="https://cdn-wp.thesportsrush.com/2017/10/INDIAN-COACH-ANNOUNCED-158.png" width="250px" height="250px">
+    	<img src="https://crickettimes.com/wp-content/uploads/2020/05/Rohit-Sharma-Virat-Kohli.jpg" width="250px" height="250px">
+    	<img src="https://c.ndtvimg.com/2020-05/17b0r4i8_yuzvendra-chahal-twitter_625x300_21_May_20.jpg" width="250px" height="250px">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSMGIM6aC0piU1ysvRiEkriznx9qeRMS4NQA&usqp=CAU" width="250px" height="250px">
+    	<img src="https://images.livemint.com/img/2020/08/18/1600x900/ROHIT_SHARMA_-_THE_NEW_OAKLEY_INDIA_BRAND_AMBASSADOR_(1)_1597726313367_1597726338734.jpg" width="250px" height="250px">
+    	<img src="https://bsmedia.business-standard.com/_media/bs/img/topic-profile/profile-images/thumb/463_463/1559745133.png" width="250px" height="250px">
+    	<img src="https://bsmedia.business-standard.com/_media/bs/img/topic-profile/profile-images/thumb/463_463/1559745133.png" width="250px" height="250px">
+    	<img src="https://bsmedia.business-standard.com/_media/bs/img/topic-profile/profile-images/thumb/463_463/1559746194.png" width="250px" height="250px">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdgm8rH1JSEGBWfhvNNE0AGcXuHuFKD4f5ng&usqp=CAU" width="250px" height="250px">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYoD70siCysyvqE3VYVb-CgooSH2jvHKNNKA&usqp=CAU" width="250px" height="250px">
+    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwxoEWNtyRdH0UNyNnsUwdZCWkdzvvl6zOlw&usqp=CAU" width="250px" height="250px">
+    </div>
+    </section>
+</body>
+</html>
